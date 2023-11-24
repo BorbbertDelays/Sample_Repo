@@ -1,0 +1,57 @@
+@keyframes rainbow {
+    0% {border-color: red;}
+    14% {border-color: orange;}
+    28% {border-color: yellow;}
+    42% {border-color: green;}
+    57% {border-color: blue;}
+    71% {border-color: indigo;}
+    85% {border-color: violet;}
+    100% {border-color: red;}
+}
+
+body {
+    font-family: cursive ;
+    background-color: rgb(150, 150, 150);
+    padding: 40px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    color: white;
+}
+
+th, td {
+    padding: 12px;
+    border: 2px solid transparent;
+    animation: rainbow 8s linear infinite; 
+    text-wrap: wrap;
+}
+
+th.mp {
+    padding: 24px;
+    background-color: rgb(40,40,40);
+    color: #fff;
+    font-size: 30px;
+}
+
+th {
+    padding: 12px;
+    background-color: rgb(40,40,40);
+    color: #fff;
+}
+
+tr {
+    background-color: rgb(69,69,69);
+}
+
+p {
+    text-align: left;
+}
+
+ul {
+    text-align: left;
+    font-size: small;
+}
